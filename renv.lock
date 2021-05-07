@@ -1,0 +1,22 @@
+{
+  "R": {
+    "Repositories": [
+      {	
+        "Name": "RSPM",
+        "URL": "https://packagemanager.rstudio.com/all/__linux__/focal/latest"
+      }
+    ]
+  },
+  "Packages": {
+    "loo": {
+      "Package": "loo",
+      "Version": "2.4.1",
+      "Source": "RSPM"
+    },
+    "rstan": {
+      "Package": "rstan",
+      "Version": "2.21.2",
+      "Source": "RSPM"
+    }
+  }
+}

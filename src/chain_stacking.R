@@ -2,12 +2,7 @@
 ## Original code by Yuling Yao
 ## source: https://github.com/yao-yl/Multimodal-stacking-code/blob/master/chain_stacking.R
 
-## Updated by Ozan Adiguzel
-
-suppressPackageStartupMessages({
-  library(loo)
-  library(rstan)
-})
+## Updated by Ozan Adiguzel to make the code more concise and reproducible
 
 options(mc.cores = parallel::detectCores())
 
